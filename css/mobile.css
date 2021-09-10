@@ -1,0 +1,105 @@
+ /* Navbar */
+.nav-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo{
+    padding-bottom: 20px;
+}
+
+.paginas ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.paginas ul li a{
+    padding: 15px;
+}
+
+.paginas ul li a:hover,
+.paginas ul li a.current{
+    background: #fdede8;
+}
+
+/* Showcase */
+#showcase{
+    padding-top: 30px;
+
+}
+ 
+.showcase-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-title{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.item-showcase-title h1{
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.showcase-description{
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.item-showcase-description h2{
+    font-size: 30px;
+}
+
+.item-showcase-description p{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+/* Portafolio */
+#portafolio{
+    padding-top: 30px;
+}
+
+.portafolio-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portafolio-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portafolio-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.portafolio-description h4{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.portafolio-description p{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+/* Contact */
+#contact{
+    padding: 30px 0 30px 0;
+    width: 60%;
+    margin: auto;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+
